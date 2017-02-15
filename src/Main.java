@@ -51,6 +51,9 @@ StringBuilder output = readTextFromFile("products.txt");
         File productsFile = filePath.toFile();
         StringBuilder result = new StringBuilder();
 
+
+
+
         try {
             FileReader r = new FileReader(productsFile);
             BufferedReader reader = new BufferedReader(r);
